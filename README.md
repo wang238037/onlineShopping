@@ -1,2 +1,24 @@
-# onlineShopping
-一个基于Vue2的在线商城SPA，使用Vue全家桶+ES6++Webpack+Axios等技术，采用模块化、组件化、工程化的模式开发
+# dianshang
+
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
