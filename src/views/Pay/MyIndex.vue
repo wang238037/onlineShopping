@@ -131,17 +131,13 @@ export default {
             // done()
             MessageBox.close()
           } else {
-            // if (this.code == 200) {
-            //   clearInterval(this.timer)
-            //   this.timer = null
-            //   this.$router.push('/paysuccess')
-            // } else {
-            //   alert("支付未完成")
-            // }
+            if (this.code == 200) {
               clearInterval(this.timer)
               this.timer = null
-              MessageBox.close()
               this.$router.push('/paysuccess')
+            } else {
+              alert("支付未完成")
+            }
           }
         }
       });
